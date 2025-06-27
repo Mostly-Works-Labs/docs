@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "mint",
   "name": "Toko Bot Docs",
   "colors": {
     "primary": "#2471e5",

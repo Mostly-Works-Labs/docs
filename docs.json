@@ -27,8 +27,7 @@
               "modules/moderation/index",
               "modules/economy/index",
               "modules/fun/index",
-              "modules/logging/index",
-              "modules/feelmee/index"
+              "modules/logging/index"
             ]
           }
         ]

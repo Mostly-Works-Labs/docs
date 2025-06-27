@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Get Started",
@@ -24,10 +24,10 @@
           {
             "group": "Modules",
             "pages": [
-              "modules/moderation/index",
-              "modules/economy/index",
-              "modules/fun/index",
-              "modules/logging/index"
+              "modules/economy",
+              "modules/moderation",
+              "modules/fun",
+              "modules/utility"
             ]
           }
         ]

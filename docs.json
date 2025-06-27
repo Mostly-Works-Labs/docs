@@ -25,14 +25,10 @@
             "group": "Modules",
             "pages": [
               "modules/moderation/index",
-
               "modules/economy/index",
-              "modules/economy/balance",
-              "modules/economy/daily",
-              "modules/economy/leaderboard",
-
-              "modules/logging/index"
-
+              "modules/fun/index",
+              "modules/logging/index",
+              "modules/feelmee/index"
             ]
           }
         ]
@@ -40,6 +36,11 @@
     ],
     "global": {
       "anchors": [
+        {
+          "anchor": "Website",
+          "href": "https://tokobot.xyz",
+          "icon": "link"
+        },
         {
           "anchor": "Invite Toko",
           "href": "https://app.revolt.chat/bot/01JXB622CH7VDC0KFH1VVCC0NJ",

@@ -11,16 +11,8 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Docs",
         "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
           {
             "group": "Modules",
             "pages": [
@@ -28,6 +20,12 @@
               "modules/moderation",
               "modules/fun",
               "modules/utility"
+            ]
+          },
+          {
+            "group": "Commands",
+            "pages": [
+              "commands/overview"
             ]
           }
         ]
@@ -73,7 +71,7 @@
   "footer": {
     "socials": {
       "github": "https://github.com/Mostly-Works-Labs",
-      "discord": "https://rvlt.gg/48SETK1s"
+      "website": "https://tokobot.xyz"
     }
   }
 }

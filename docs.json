@@ -11,21 +11,23 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Modules",
+            "group": "Get Started",
             "pages": [
-              "modules/economy",
-              "modules/moderation",
-              "modules/fun",
-              "modules/utility"
+              "index",
+              "quickstart",
+              "development"
             ]
           },
           {
-            "group": "Commands",
+            "group": "Modules",
             "pages": [
-              "commands/overview"
+              "modules/fun",
+              "modules/utility",
+              "modules/economy",
+              "modules/moderation"
             ]
           }
         ]

@@ -59,6 +59,7 @@
     {
       "group": "Modules",
       "pages": [
+        "modules/overview",
         "modules/fun",
         "modules/utility",
         "modules/economy",

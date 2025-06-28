@@ -17,6 +17,10 @@
       "url": "https://rvlt.gg/48SETK1s"
     }
   ],
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
   "topbarCtaButton": {
     "name": "Invite Toko",
     "url": "https://app.revolt.chat/bot/01JXB622CH7VDC0KFH1VVCC0NJ"
@@ -65,9 +69,5 @@
   "footerSocials": {
     "github": "https://github.com/Mostly-Works-Labs",
     "website": "https://tokobot.xyz"
-  },
-  "feedback": {
-    "thumbsRating": true,
-    "suggestEdit": true
   }
 }

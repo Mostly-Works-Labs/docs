@@ -1,70 +1,77 @@
 ---
-title: "Economy System"
-description: "Earn, spend, and compete with coins, jobs, and games on your server."
+title: "Quickstart"
+description: "Set up Toko on your Revolt server in minutes."
 ---
 
-# 💸 Economy System
+# Get Toko Running in Minutes
 
-## Virtual coins, jobs, and games for your server community.
+<Warning>
+Before you start, please read our <a href="https://terms.tokobot.xyz">Terms of Service</a> and <a href="https://privacy.tokobot.xyz">Privacy Policy</a>.
+</Warning>
 
 <CardGroup cols={2}>
   <Card
-    title="Work & Earn"
-    icon="briefcase"
+    title="1. Invite Toko"
+    icon="plus"
+    href="https://app.revolt.chat/bot/01JXB622CH7VDC0KFH1VVCC0NJ"
   >
-    Get a virtual job to earn coins on a regular basis. Sometimes you’ll succeed—sometimes you’ll hilariously fail!
+    Add Toko to your Revolt server with a single click.
   </Card>
   <Card
-    title="Casino Games"
-    icon="gamepad"
+    title="2. Set Permissions"
+    icon="shield"
+    href="#permissions"
   >
-    Try your luck with games like roulette or coinflip. Big wins—or big losses—are all part of the fun!
+    Toko needs specific permissions to function.<br/>
+    <b>Note:</b> "Manage Server" is required to manage your server in the Toko dashboard.<br/>
+    <a href="#permissions">See details</a>
   </Card>
   <Card
-    title="Compete"
-    icon="trophy"
+    title="3. Configure Toko"
+    icon="gear"
+    href="https://tokobot.xyz/dashboard"
   >
-    Check the leaderboard to see who’s got the most coins. Climb to the top and flex your fortune!
+    (Optional, but recommended) Set up modules, automod, logging, and more using the Toko dashboard.
   </Card>
   <Card
-    title="Fair Play"
-    icon="lock"
+    title="4. Try a Command"
+    icon="terminal"
   >
-    Most economy features have cooldowns to prevent spam. Abusing or exploiting the system can get you <b>eco-banned</b>.
+    In any channel Toko can see, type:<br/>
+    <code>thelp</code> or <code>tinfo</code><br/>
+    Toko will respond with a list of features and commands.
   </Card>
 </CardGroup>
 
 ---
 
-## Getting Started
-
-- Use commands like <code>tbal</code> or <code>twork</code> to check your balance and start earning.
-- Apply for jobs or play games—see which ones your server has enabled.
-- Spend, save, or show off your coins however you want!
+## <span id="permissions"></span>Permissions
 
 <Info>
-If you ever get eco-banned, you’ll be notified and won’t be able to use economy features until an admin helps you out.
+<strong>"Manage Server"</strong> is required to manage your server in the Toko dashboard. Additional permissions are needed for the bot to access all features.
 </Info>
 
----
+### **Required for Dashboard Access**
+- **Manage Server** — needed to use and manage your server in the Toko dashboard.
 
-## Troubleshooting
+### **Bot Permissions for Core Features**
+- **View Channel** — see channels and messages
+- **Read Message History** — access previous messages for context
+- **Send Message** — respond and interact with users
+- **Send Embeds** & **Upload Files** — share images, embeds, logs, and files
+- **React** — add reactions to messages
 
-<CardGroup>
-  <Card title="Not Earning Coins?" icon="help-circle">
-    You might be on cooldown or eco-banned. Try again later, or ask an admin for help.
-  </Card>
-  <Card title="Command Not Working?" icon="terminal">
-    Double-check your command format and prefix. Still issues? Ask your server admin.
-  </Card>
-  <Card title="Lost Coins?" icon="alert-circle">
-    Casino games are risky—sometimes you win, sometimes you don’t!
-  </Card>
-</CardGroup>
+### **Recommended for Full Bot Functionality**
+- **Manage Channel**
+- **Manage Role** and **Assign Roles**
+- **Kick Members**, **Ban Members**, **Mute Members**, **Deafen Members**, **Timeout Members**
+- **Manage Messages**
+- **Manage Webhooks**
+- **Masquerade**
 
 ---
 
 <Info>
-Want to see more features?  
-Check out the full list in <b><a href="/modules/overview">Modules</a></b>!
+Ready for more?<br/>
+See everything Toko can do in the <b><a href="/modules/overview">Modules</a></b> section!
 </Info>

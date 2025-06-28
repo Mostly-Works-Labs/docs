@@ -6,8 +6,8 @@ description: "Set up Toko on your Revolt server in minutes."
 # Get Toko Running in Minutes
 
 <Warning>
-Before you start, make sure to read our <a href="terms.tokobot.xyz">Terms of Service</a> and <a href="privacy.tokobot.xyz">Privacy Policy</a>.
-<Warning/>
+Before you start, please read our <a href="https://terms.tokobot.xyz">Terms of Service</a> and <a href="https://privacy.tokobot.xyz">Privacy Policy</a>.
+</Warning>
 
 <CardGroup cols={2}>
   <Card
@@ -20,16 +20,18 @@ Before you start, make sure to read our <a href="terms.tokobot.xyz">Terms of Ser
   <Card
     title="2. Set Permissions"
     icon="shield"
+    href="#permissions"
   >
-    Make sure Toko can read/send messages, manage channels, and moderate members.<br/>
-    <b>Tip:</b> “Administrator” permission is easiest.
+    Toko needs specific permissions to function.<br/>
+    <b>Note:</b> "Manage Server" is required to manage your server in the Toko dashboard.<br/>
+    <a href="#permissions">See details</a>
   </Card>
   <Card
     title="3. Configure Toko"
     icon="gear"
     href="https://tokobot.xyz/dashboard"
   >
-    Optional, but recommended! Set up modules, automod, logging, and more using the dashboard.
+    (Optional, but recommended) Set up modules, automod, logging, and more using the Toko dashboard.
   </Card>
   <Card
     title="4. Try a Command"
@@ -43,7 +45,33 @@ Before you start, make sure to read our <a href="terms.tokobot.xyz">Terms of Ser
 
 ---
 
+## <span id="permissions"></span>Permissions
+
+<Info>
+<strong>"Manage Server"</strong> is required to manage your server in the Toko dashboard. Additional permissions are needed for the bot to access all features.
+</Info>
+
+### **Required for Dashboard Access**
+- **Manage Server** — needed to use and manage your server in the Toko dashboard.
+
+### **Bot Permissions for Core Features**
+- **View Channel** — see channels and messages
+- **Read Message History** — access previous messages for context
+- **Send Message** — respond and interact with users
+- **Send Embeds** & **Upload Files** — share images, embeds, logs, and files
+- **React** — add reactions to messages
+
+### **Recommended for Full Bot Functionality**
+- **Manage Channel**
+- **Manage Role** and **Assign Roles**
+- **Kick Members**, **Ban Members**, **Mute Members**, **Deafen Members**, **Timeout Members**
+- **Manage Messages**
+- **Manage Webhooks**
+- **Masquerade**
+
+---
+
 <Info>
 Ready for more?<br/>
-Check out the <b>Modules</b> section to see everything Toko can do!
+See everything Toko can do in the <b><a href="/modules/overview">Modules</a></b> section!
 </Info>
